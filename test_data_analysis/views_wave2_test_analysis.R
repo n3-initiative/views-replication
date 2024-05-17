@@ -27,3 +27,5 @@ nonresponse <- views_test_data %>%
   # calculate the % nonresponse and sort descending on nonresponse (highest nonresponse on top)
   mutate(nonresponse_percent = n_nonresponse/nrow(views_test_data) * 100) %>%
   arrange(desc(nonresponse_percent))
+
+print("testing git again")
